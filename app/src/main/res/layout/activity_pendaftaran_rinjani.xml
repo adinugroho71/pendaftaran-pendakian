@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/rinjani" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/imageView6"
+            android:text="DATA DIRI PENDAKI RINJANI"
+            android:textColor="#090808"
+            android:textSize="20sp"
+            tools:ignore="DuplicateIds" />
+
+
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView32"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Nama lengkap ketua :"
+            android:textColor="#090808"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtNama"
+            android:layout_below="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNama"
+            android:layout_marginLeft="20dp"
+            android:text="No Telepon :"
+            android:textColor="#090808"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtTelp"
+            android:layout_below="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Email :"
+            android:layout_below="@+id/txtTelp"
+            android:textColor="#090808"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_below="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtEmail"
+            android:layout_marginLeft="20dp"
+            android:text="Tempat dan tanggal lahir :"
+            android:textColor="#090808"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtLahir"
+            android:layout_below="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/txtLahir"
+            android:text="Alamat :"
+            android:textColor="#090808"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtAlamat"
+            android:layout_below="@+id/textView38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/txtAlamat"
+            android:text="Tanggal naik :"
+            android:textColor="#090808"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtNaik"
+            android:layout_below="@+id/textView39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNaik"
+            android:layout_marginLeft="20dp"
+            android:text="Tanggal turun :"
+            android:textColor="#090808"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtTurun"
+            android:layout_below="@+id/textView40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/txtTurun"
+            android:text="Jumlah Rombongan :"
+            android:textColor="#090808"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtRombongan"
+            android:layout_below="@+id/textView41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/txtRombongan"
+            android:text="Tempat pendakian : "
+            android:textColor="#090808"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtPendakian"
+            android:layout_below="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_simpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/txtPendakian"
+            android:text="Simpan "
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imghome1"
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/btn_simpan"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/home" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".update">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="UPDATE"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:textColor="#090808"/>
+
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView32"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Nama lengkap ketua :"
+        android:textColor="#090808"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtNama_update"
+        android:layout_below="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNama_update"
+        android:layout_marginLeft="20dp"
+        android:text="No Telepon :"
+        android:textColor="#090808"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtTelp_Update"
+        android:layout_below="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/txtTelp_Update"
+        android:text="Alamat :"
+        android:textColor="#090808"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtAlamat_Update"
+        android:layout_below="@+id/textView38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/txtAlamat_Update"
+        android:text="Tanggal naik :"
+        android:textColor="#090808"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtNaik_update"
+        android:layout_below="@+id/textView39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNaik_update"
+        android:layout_marginLeft="20dp"
+        android:text="Tanggal turun :"
+        android:textColor="#090808"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtTurun_update"
+        android:layout_below="@+id/textView40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/txtTurun_update"
+        android:text="Jumlah Rombongan :"
+        android:textColor="#090808"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtRombongan_update"
+        android:layout_below="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/txtRombongan_update"
+        android:text="Tempat pendakian : "
+        android:textColor="#090808"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtPendakian_update"
+        android:layout_below="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_simpan_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/txtPendakian_update"
+        android:text="UBAH"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pendaki"
+    tools:context=".home">
+
+
+        <ImageView
+            android:id="@+id/imgPeraturan"
+            android:src="@drawable/peraturan"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/tvPeraturan"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <TextView
+            android:id="@+id/tvPeraturan"
+            android:text="Peratuan"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/imgPendaftaran"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/imgPendaftaran"
+            android:src="@drawable/logo"
+            android:layout_centerInParent="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <TextView
+            android:id="@+id/tvPendaftaran"
+            android:text="Pendaftaran"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/imgPendaftaran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"/>
+
+        <ImageView
+            android:id="@+id/imgData"
+            android:src="@drawable/data"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/tvPendaftaran"
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <TextView
+            android:id="@+id/tvData"
+            android:text="Data Pendaki"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/imgData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"/>
+
+</RelativeLayout>
